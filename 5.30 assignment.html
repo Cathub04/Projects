@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>restaurant</title>
+	<script src="5.30JS.js"></script>
+	<link rel="stylesheet" href="theStyle.css">
+</head>
+<body>
+<center><h1>🚏Welcome to Traveler's Cafe.🚏</h1></center><br>
+<center><p>best place to have a rest when you got tired on the road</p></center><hr>
+<p id="greeting"></p>
+<p>It's a great pleasure to have you visit our website. Please feel free to take a look at our cafe.</p>
+<img src="https://i.pinimg.com/originals/c3/e9/62/c3e9620dd7844453698a73aaf2f53c62.jpg" alt='Cafe photo'>
+<p>Here is our menu:</p><br>
+<ol>
+	<li>Lemonade-$1</li><img src="https://images-gmi-pmc.edge-generalmills.com/2586d951-a46a-4091-aec6-eca3adefb409.jpg" width="300px" height="200px" alt="lemonade" ;>
+	<li>Apple Juice-$1</li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnaWuael8ehzVtSdkD7fq18seytA0sbPcrrw&usqp=CAU" width="300px" height="200px" alt="applejuice" ;>
+	<li>Latte-$4/12oz</li><img src="https://www.torani.com/sites/default/files/styles/torani_syrup_recipe_detail/public/recipes/illustration/latte432.jpg?itok=a_Au75x4" width="300px" height="200px" alt="latte";>
+	<li>Americano-$3/12oz</li><img src="https://www.roastycoffee.com/wp-content/uploads/emre-gencer-364602-unsplash-1.jpg" width="300px" height="200px" alt="Americano";>
+	<li>Coffee Mocha-$3/12oz</li><img src="https://food-images.files.bbci.co.uk/food/recipes/the_perfect_mocha_coffee_29100_16x9.jpg" width="300px" height="200px" alt="CoffeeMocha";>
+	<li>Whisky-$10/cup</li><img src="https://www.theiwsr.com/wp-content/uploads/ScotchWhiskySurge-700x525px-600x450.jpg" width="300px" height="200px" alt="Whisky";>
+	<li>Vodka-$6/cup</li><img src="https://cdn.luxe.digital/media/2020/05/19162254/best-vodka-brands-luxe-digital%402x.jpg" width="300px" height="200px" alt="Vodka";>
+	<li>Donut pack-$5/4donuts</li><img src="https://dynamicmedia.zuza.com/zz/m/original_/e/3/e3e87797-d896-44d1-82ce-ff702def7e00/Best-Doughnuts-Toronto-SanRemo_Super_Portrait.jpg" width="300px" height="200px" alt="Donut";>
+	<li>Bacon Sandwich-$4</li><img src="https://cdn.kiwilimon.com/recetaimagen/37267/46902.jpg" width="300px" height="200px" alt="Sandwich";>
+</ol><hr>
+
+<h3>If you want to reserve a meal, please fill in the form below:</h3><br>
+<form>
+<label>First choice:</label>
+<input type="number" id="fchoice1"  min="1" max="9">
+<label>Second choice:</label>
+<input type="number" id="fchoice2"  min="1" max="9">
+<label>Third choice:</label>
+<input type="number" id="fchoice3"  min="1" max="9"><br>
+<label>Scheduled Date</label><br>
+<label>Month:</label>
+<input type='number' id='month' min='1' max='12'>
+<label>Day:</label>
+<input type='number' id='day' min='1' max='31'>
+</form>
+<button onclick='menu()'>
+Book the meal
+</button>
+<p id="foods"></p>
+<button onclick='psr()'>Check this out! Surprise for you, dear customer!</button>
+<center>We will look forward to your visit,dear customer.</center><hr>
+<p id='end'>Address: Crane's imagine Avenue, 5</p>
+<p id='end'>Telephone: just an assignment you don't really need this.</p>
+</body>
+</html>

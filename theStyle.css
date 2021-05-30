@@ -1,0 +1,12 @@
+h1{
+	color: white; background-color: rgb(111, 78, 55); margin: 0px; padding: 20px;
+}
+body{
+	color: rgb(134, 89, 45); background-image: url(http://www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg); background-repeat: no-repeat; background-size: cover;
+}
+ol{
+	columns: 3;
+}
+#end{
+	color: white; background-color: rgb(111, 78, 55); margin: 0px; padding: 0px;
+}
